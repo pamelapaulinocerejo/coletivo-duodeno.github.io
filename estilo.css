@@ -9,113 +9,63 @@ h1 {
 	color: white;
 	font-family: stencil std;
 }
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-#cssmenu{
-  margin: 0;
-  padding: 0;
-  border: 0;
-  list-style: none;
-  line-height: 1;
-  display: block;
-  position: relative;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-#cssmenu ul{
-  margin: 0;
-  padding: 0;
-  border: 0;
-  list-style: none;
-  line-height: 1;
-  display: block;
-  position: relative;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-#cssmenu ul li{
-  margin: 0;
-  padding: 0;
-  border: 0;
-  list-style: none;
-  line-height: 1;
-  display: block;
-  position: relative;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-#cssmenu ul li a{
-margin: 0;
-  padding: 0;
-  border: 0;
-  list-style: none;
-  line-height: 1;
-  display: block;
-  position: relative;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-#cssmenu #menu-button {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  list-style: none;
-  line-height: 1;
-  display: block;
-  position: relative;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-#cssmenu:after{
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
-}
-
-#cssmenu>ul:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
-}
-#cssmenu #menu-button {
-  display: none;
-}
-#cssmenu {
-  font-family: Montserrat, sans-serif;
-  background: #333333;
-}
-#cssmenu>ul>li {
-  float: left;
-}
-#cssmenu>ul>li>a {
-  padding: 17px;
-  font-size: 12px;
-  letter-spacing: 1px;
-  text-decoration: none;
-  color: #dddddd;
-  font-weight: 700;
-  text-transform: uppercase;
-  -webkit-transition: color .25s ease;
-  -moz-transition: color .25s ease;
-  transition: color .25s ease;
-}
-#cssmenu>ul>li:hover>a {
-  color: #ffffff;
-}
-#cssmenu>ul>li.has-sub>a {
-  padding-right: 30px;
-}
+ul li { 
+  background : # 000 ; 
+  estilo de lista : nenhum ; 
+  altura : 44px ; 
+  flutuador : esquerda ; 
+  estofamento : 10px 5px ; 
+  } 
+  ul li a { 
+  largura : 175px ; 
+  altura : 40px ; 
+  altura da linha : 53px ; 
+  borda inferior : 4px sólido # 636393 ; 
+  preenchimento : 0px ; 
+  cor : #fff ; 
+  font-size : 18px ; 
+  font-weight : mais leve ; 
+  texto-alinhamento : centro ; 
+  text-decoration : none ; 
+  exibição : bloco ; 
+  -webkit-transition : .2s tudo linear ; 
+  -moz-transition : .2s tudo linear ; 
+  -o-transition : .2s tudo linear ; 
+  transição: .2s tudo linear; 
+  } 
+  li: nth-child (1) a { 
+  border-color : # 636393 ; 
+  } 
+  li: nth-child (2) a { 
+  cor da borda : # B5222D ; 
+  } 
+  li: nth-child (3) a { 
+  border-color : # D4953C ; 
+  } 
+  li: nth-child (4) a { 
+  border-color : # 609491 ; 
+  } 
+  li: nth-child (5) a { 
+  cor da borda : # 87A248 ; 
+  } 
+  li: nth-child (1) a: hover { 
+  border-bottom : 35px sólido # 636393 ; 
+  altura : 9px ; 
+  } 
+  li: nth-child (2) a: hover { 
+  borda inferior : 35px sólido # B5222D ; 
+  altura : 9px ; 
+  } 
+  li: nth-child (3) a: hover { 
+  border-bottom : 35px sólido # D4953C ; 
+  altura : 9px ; 
+  } 
+  li: nth-child (4) a: hover { 
+  borda inferior : 35px sólido # 609491 ; 
+  altura : 9px ; 
+  } 
+  li: nth-child (5) a: hover { 
+  borda inferior : 35px sólido # 87A248 ; 
+  altura : 9px ; 
+  } 
+ 
