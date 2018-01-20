@@ -11,9 +11,7 @@ h1 {
 }
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-#cssmenu{
-  weidth:300px;
-}
+#cssmenu,
 #cssmenu ul,
 #cssmenu ul li,
 #cssmenu ul li a,
